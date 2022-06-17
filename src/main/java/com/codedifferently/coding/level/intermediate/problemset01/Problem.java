@@ -16,8 +16,10 @@ public class Problem {
      */
 
     public static String stringCopies(String word, int n) {
-
-        return null;
+        for (int x = 0; x < word.length(); x++){
+            System.out.println("Hi"+word);
+        }
+        return word;
     }
 
 
